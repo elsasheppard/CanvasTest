@@ -2,4 +2,10 @@
     <string name="app_name">CanvasTest</string>
     <string name="canvasContentDescription">Mini Paint is a simple line drawing app.
         Drag your fingers to draw. Rotate the phone to clear.</string>
+    <string name="action_erase">erase</string>
+    <string name="action_delete">delete</string>
+    <string name="action_undo">undo</string>
+    <string name="action_brush">draw</string>
+    <string name="action_color">color</string>
+    <string name="action_save">save</string>
 </resources>
