@@ -7,30 +7,20 @@
     tools:context=".MainActivity">
 
     <com.example.canvastest.MyCanvasView
-        android:id="@+id/canvas_main"
+        android:id="@+id/canvas_main_canvas"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_above="@+id/toolbar_bottom"
-        app:layout_constraintBottom_toTopOf="@id/toolbar_bottom"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_bottom"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_alignParentBottom="true"
-        android:background="#CACACA"
-        app:barrierMargin="2dp"
+    <Button
+        android:id="@+id/button_main_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:popupTheme="@style/Widget.AppCompat.PopupMenu.Overflow">
-
-
-    </androidx.appcompat.widget.Toolbar>
-
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
